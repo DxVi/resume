@@ -1,0 +1,247 @@
+{
+  "main": {
+    "name": "Dixon Villan",
+    "image": "dixv.jpg",
+    "occupation": "Freelance ReactJS Web Application Developer",
+    "phone": "+63 949 651 0195",
+    "email": "villandixon@yahoo.com",
+    
+    "address": {
+      "street": "San Agustin",
+      "city": "Romblon",
+      "state": "Philippines",
+      "zip": "5501"
+    },
+
+    "facebook": "https://facebook.com/dixon.villan",
+    "twitter": "https://twitter.com/DixonVillan",
+    "github": "http://github.com/villandixon"
+  },
+  "resume": {
+    "skillmessage": "Here are the summary of my current skills;",
+    "othertechmessage": "Here are the summary of my previously used Tools and Technologies;",
+    "education": [
+      {
+        "school": "AMA Computer University",
+        "degree": "B.S. Computer Science",
+        "graduated": "May 1996",
+        "description": ""
+      },
+      {
+        "school": "Technological University of the Philippines",
+        "degree": "Computer Technology",
+        "graduated": "March 1993",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Barclays Capital, Singapore",
+        "title": "L2 Production Support",
+        "years": "June 2007 - April 2016",
+        "description": "Interact with L1 and L3 for Production issues and fixes (ServiceNow, Visual C# 2010, MSSQL, Oracle 10g, Sybase, Toad, Business Objects)."
+      },
+      {
+        "company": "Deutsche Bank, Singapore",
+        "title": "Programmer",
+        "years": "July 2005 - June 2007",
+        "description": "Program coding and maintenance of a Reporting Suite System (Visual Basic, Oracle 9i, Toad, Business Objects)"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJS",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "SQL",
+        "level": "100%"
+      },
+      {
+        "name": "Git",
+        "level": "50%"
+      },
+      {
+        "name": "Gimp",
+        "level": "50%"
+      }
+    ],
+    "othertech": [
+      {
+        "name": "C#.Net, VB.Net, ASP.Net"
+      },
+      {
+        "name": "VB 6.0, ASP Classic"
+      },
+      {
+        "name": "MSSQL 6/7, MSSQL 2000, Oracle 8i, Sybase"
+      },
+      {
+        "name": "ServiceNow, Remedy"
+      },
+      {
+        "name": "Crystal Reports, Business Objects, Toad"
+      },
+      {
+        "name": "Clipper, Foxpro, Dbase, Foxbase, C, C++"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Facebook Clone",
+        "category": "ReactJS, Material-UI, React-Context API, Firestore, Firebase Hosting, Google Authentication",
+        "image": "facebook.jpg",
+        "url": "https://facebook-clone-824e0.web.app/",
+        "github": "https://github.com/DxVi/facebook-clone.git"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "ReactJS, Firebase, Material-UI, React-Router, React-Date Picker",
+        "image": "airbnb.jpg",
+        "url": "https://airbnb-clone-7ca5a.web.app/",
+        "github": "https://github.com/DxVi/airbnb-clone.git"
+      },
+      {
+        "title": "Hulu Clone",
+        "category": "ReactJS, Firebase, Material-UI, React-Flip-Move, Axios, TMDB",
+        "image": "hulu.jpg",
+        "url": "https://hulu-clone-3c589.web.app/",
+        "github": "https://github.com/DxVi/hulu-clone.git"
+      },
+      {
+        "title": "Google Clone",
+        "category": "ReactJS, Firebase, React-Context API (Redux), Material-UI, React-Router, Custome React Hook, Google Custom Search API",
+        "image": "google.jpg",
+        "url": "https://clone-4f16f.web.app",
+        "github": "https://github.com/DxVi/google-clone.git"
+      },
+      {
+        "title": "Whatsapp Clone",
+        "category": "ReactJS, Firebase, React-Context API (Redux), Material-UI, React-Router, Google Authentication",
+        "image": "whatsapp.jpg",
+        "url": "https://whatsapp-clone-43b56.web.app/",
+        "github": "https://github.com/DxVi/whatsapp-clone.git"
+      },
+      {
+        "title": "Slack Clone",
+        "category": "ReactJS, Firebase, Material-UI, CSS Variables, Google Sign-In, React Context API (REDUX)",
+        "image": "slack.jpg",
+        "url": "https://slack-clone-693be.web.app/",
+        "github": "https://github.com/DxVi/slack-clone.git"
+      },
+      {
+        "title": "Twitter Clone",
+        "category": "ReactJS, Firebase, Material-UI, CSS Variables, React-Flip-Move, React-Twitter-Embed",
+        "image": "twitter.jpg",
+        "url": "https://twitter-clone-85893.web.app/",
+        "github": "https://github.com/DxVi/twitter-clone.git"
+      },
+      {
+        "title": "Spotify Clone",
+        "category": "ReactJS, Firebase, Material-UI, Spotify User Authentication",
+        "image": "spotify.jpg",
+        "url": "https://spotify-clone-1ffd0.web.app/",
+        "github": "https://github.com/DxVi/spotify-clone.git"
+      },
+      {
+        "title": "Tiktok Clone",
+        "category": "ReactJS, Firebase, Material-UI, Tiktok",
+        "image": "tiktok.jpg",
+        "url": "https://tiktok-clone-1a685.web.app/",
+        "github": "https://github.com/DxVi/tiktok-clone.git"
+      },
+      {
+        "title": "Covid-19 Tracker",
+        "category": "ReactJS, Firebase, React-Leaflet, Material-UI",
+        "image": "covidtracker.jpg",
+        "url": "https://covid-tracker-29b76.web.app/",
+        "github": "https://github.com/DxVi/covid-tracker.git"
+      },
+      {
+        "title": "Tinder Clone",
+        "category": "ReactJS, Firebase, TinderCard, Router/Link, Material-UI icons",
+        "image": "tinder.jpg",
+        "url": "https://tinder-clone-143ca.web.app/",
+        "github": "https://github.com/DxVi/tinder-clone.git"
+      },
+      {
+        "title": "YouTube Clone",
+        "category": "ReactJS, Materil-UI Icons, Flexbox, Router/Link",
+        "image": "youtube.jpg",
+        "url": "https://clone-24ce3.web.app/",
+        "github": "https://github.com/DxVi/youtube-clone.git"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "ReactJS, Access to TMDb, Flexbox/Hover/Blend effects",
+        "image": "netflix.jpg",
+        "url": "https://netflix-clone-4262c.web.app/",
+        "github": "https://github.com/DxVi/netflix-clone.git"
+      },
+      {
+        "title": "Instagram Clone",
+        "category": "ReactJS, Firebase, Material-UI, Upload image to firebase, Instagram Embed",
+        "image": "instagram.jpg",
+        "url": "https://instagram-clone-fb953.web.app/",
+        "github": "https://github.com/DxVi/instagram-clone.git"
+      },
+      {
+        "title": "fb Messenger Clone",
+        "category": "ReactJS, Firebase, Material-UI, Realtime chat update",
+        "image": "fbmessenger.jpg",
+        "url": "https://fb-messenger-205e9.web.app/",
+        "github": "https://github.com/DxVi/fb_Messenger_React_Firebase.git"
+      },
+      {
+        "title": "ToDo App",
+        "category": "CRUD, ReactJS, Firebase, Material-UI",
+        "image": "todo.jpg",
+        "url": "https://todo-6c3d7.web.app/",
+        "github": "https://github.com/villandixon/0916_ToDo_CRUD_React_Firebase.git"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "ReactJS, Shopping Basket, Firebase, Stripe",
+        "image": "amazon.jpg",
+        "url": "https://challenge-980b3.web.app/",
+        "github": ""
+      },
+      {
+        "title": "Amazon Affiliate Website",
+        "category": "ReactJS, Heroku",
+        "image": "affiliate.jpg",
+        "url": "https://dixv-affiliate.herokuapp.com/",
+        "github": ""
+      },
+      {
+        "title": "Romblon Transport Cooperative (RTC)",
+        "category": "Python, PostgreSQL, Heroku",
+        "image": "rtc.jpg",
+        "url": "https://rtc2018.herokuapp.com",
+        "github": ""
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      },
+      {
+        "text": "",
+        "user": ""
+      }
+    ]
+  }
+}

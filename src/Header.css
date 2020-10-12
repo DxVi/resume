@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+}
+
+.header__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header__left > p {
+  margin-left: 10px;
+  font-size: small;
+  color: antiquewhite;
+  opacity: 0.9;
+}
+
+.header__me > p:hover {
+  text-decoration: none;
+}
+
+.header__middle {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  transition: transform 50ms ease-out;
+}
+
+.header__middle .MuiButtonBase-root {
+  text-transform: inherit !important;
+  color: white !important;
+  font-size: small !important;
+  opacity: 0.7;
+}
+
+.header__middle .MuiButtonBase-root:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex: 0.3;
+}
+
+.header__right a {
+  color: white;
+  opacity: 0.8;
+  margin-right: 10px;
+}
