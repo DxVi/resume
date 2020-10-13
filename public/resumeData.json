@@ -2,20 +2,19 @@
   "main": {
     "name": "Dixon Villan",
     "image": "dixv.jpg",
-    "occupation": "Freelance ReactJS Web Application Developer",
+    "job": "Freelance Full Stack ReactJS Web Application Developer",
+    "bio": "My name is Dixon. I'm currently looking for a freelance job as a Full Stack ReactJS Web Application Developer",
     "phone": "+63 949 651 0195",
     "email": "villandixon@yahoo.com",
-    
     "address": {
       "street": "San Agustin",
       "city": "Romblon",
       "state": "Philippines",
       "zip": "5501"
-    },
-
+    },  
     "facebook": "https://facebook.com/dixon.villan",
     "twitter": "https://twitter.com/DixonVillan",
-    "github": "http://github.com/villandixon"
+    "github": "http://github.com/dxvi"
   },
   "resume": {
     "skillmessage": "Here are the summary of my current skills;",
@@ -51,27 +50,43 @@
     "skills": [
       {
         "name": "ReactJS",
-        "level": "50%"
+        "level": "75"
+      },
+      {
+        "name": "Python",
+        "level": "50"
+      },
+      {
+        "name": "Firebase/Firestore",
+        "level": "60"
+      },
+      {
+        "name": "NodeJS",
+        "level": "50"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75"
       },
       {
         "name": "CSS",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "SQL",
-        "level": "100%"
+        "level": "90"
       },
       {
-        "name": "Git",
-        "level": "50%"
+        "name": "Git/Github",
+        "level": "60"
       },
       {
         "name": "Gimp",
-        "level": "50%"
+        "level": "50"
       }
     ],
     "othertech": [

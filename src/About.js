@@ -1,27 +1,51 @@
 import React from 'react';
 import "./About.css";
+import {Button} from "@material-ui/core";
+import PlayForWorkIcon from '@material-ui/icons/PlayForWork';
 
 function About({data}) {
-    return (
-            <div className="about">
-            <div className="about__name">
-                <h1>{data?.name}</h1>
-                
-            </div>
-            
-            <div className="about__me">
-                <h3>About Me</h3>
-                <p>{`I'm a ${data?.occupation}`}</p>
-            </div>
+    const name=data?.name;
+    const bio=data?.bio;
+    const phone=data?.phone;
+    const email=data?.email;
+    const street=data?.address.street;
+    const city=data?.address.city;
+    const state=data?.address.state;
+    const zip=data?.address.zip;
+    
 
-            <div className="about__contact">
-                <h3>Contact Details</h3>
-                <p>{data?.phone}</p>
-                <p>{data?.email}</p>
+    return (
+        <div id="about" className="about">
+            <div className="about__pic">
+                <img src="./images/dixv.jpg" alt="" />
             </div>
-            
-        </div>)
-        
+            <div className="about__details">
+                <h2>About Me</h2>
+                <p>{bio}</p>
+                <br /> <br />
+                <div>
+                    <h2>Contact Details</h2>
+                    <p>
+                    <span>{name}</span><br />
+                    <span>{street}, {city},<br />
+                          {state}, {zip}
+                    </span><br />
+                    <span>{phone}</span><br />
+                    <span>{email}</span>
+                    </p>
+
+                    
+                </div>
+                <p className="about__downIcon">
+                        <a href="#resume">
+                            <Button>
+                                <PlayForWorkIcon />
+                            </Button>
+                        </a>
+                    </p>
+            </div>
+        </div>
+    )
 }
 
 export default About

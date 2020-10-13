@@ -1,34 +1,27 @@
 import React from 'react';
 import "./Header.css";
-import {Avatar, Button} from "@material-ui/core";
+import {Avatar} from "@material-ui/core";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import {Link} from "react-router-dom";
 
 function Header({data}) {
     return (
         <div className="header">
             <div className="header__left">
-                <Link to="/">
-                    <Avatar 
-                        src={data?.image}
-                        alt=""
-                    />
-                </Link>
+                <Avatar 
+                    src={`/images/${data?.image}`}
+                    alt=""
+                />
                 <p>{data?.name}</p>
-                
             </div>
 
             <div className="header__middle">
-                <Link to="/">
-                    <Button>About</Button>
-                </Link>
-                <Link to="/builds">
-                    <Button>Builds</Button>
-                </Link>
-                
-                <Button>Resume</Button>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
             </div>
 
             <div className="header__right">

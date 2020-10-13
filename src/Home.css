@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  color: white;
+  opacity: 0.9;
+  padding-top: 265px;
+  background-color: blue;
+  text-shadow: 2px 2px 4px black;
+}
+
+.home h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.home h3 {
+  color: antiquewhite;
+  opacity: 0.9;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.home h3 > span {
+  color: rgb(0, 238, 255);
+}
+
+.home > hr {
+  width: 300px;
+  height: 1px;
+  border: 0;
+  background-color: #888888;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
+.home__downIcon {
+  position: absolute;
+  bottom: 50px;
+}
+
+.home__downIcon .MuiSvgIcon-root {
+  color: white !important;
+}
