@@ -2,13 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   color: white;
   opacity: 0.9;
-  padding-top: 265px;
-  background-color: blue;
+  padding-top: 300px;
   text-shadow: 2px 2px 4px black;
+  background-image: url("/images/home.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
 }
 
 .home h1 {
@@ -19,29 +29,53 @@
 .home h3 {
   color: antiquewhite;
   opacity: 0.9;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .home h3 > span {
-  color: rgb(0, 238, 255);
+  color: white;
 }
 
-.home > hr {
+.home hr {
   width: 300px;
   height: 1px;
   border: 0;
-  background-color: #888888;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background-color: antiquewhite;
+  margin-top: 0;
+  margin-bottom: 2rem;
   opacity: 0.5;
-}
-
-.home__downIcon {
-  position: absolute;
-  bottom: 50px;
 }
 
 .home__downIcon .MuiSvgIcon-root {
   color: white !important;
+}
+
+.bg-gradient-overlay {
+  position: relative;
+  z-index: 1;
+}
+.bg-gradient-overlay::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #2c455d;
+  background: -webkit-linear-gradient(to right, dodgerblue, #2c455d);
+  background: linear-gradient(to right, dodgerblue, #2c455d);
+  opacity: 0.5;
+}
+
+.home__fadeBottom {
+  width: 100%;
+  height: 20rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
 }

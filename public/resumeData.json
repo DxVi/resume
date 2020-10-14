@@ -3,7 +3,8 @@
     "name": "Dixon Villan",
     "image": "dixv.jpg",
     "job": "Freelance Full Stack ReactJS Web Application Developer",
-    "bio": "My name is Dixon. I'm currently looking for a freelance job as a Full Stack ReactJS Web Application Developer",
+    "bio1": "My name is Dixon.",
+    "bio2": "I'm currently looking for a freelance job as a Full Stack ReactJS Web Application Developer",
     "phone": "+63 949 651 0195",
     "email": "villandixon@yahoo.com",
     "address": {
@@ -42,7 +43,7 @@
       },
       {
         "company": "Deutsche Bank, Singapore",
-        "title": "Programmer",
+        "title": "Senior Programmer",
         "years": "July 2005 - June 2007",
         "description": "Program coding and maintenance of a Reporting Suite System (Visual Basic, Oracle 9i, Toad, Business Objects)"
       }
@@ -53,11 +54,11 @@
         "level": "75"
       },
       {
-        "name": "Python",
-        "level": "50"
+        "name": "Python / Django",
+        "level": "60"
       },
       {
-        "name": "Firebase/Firestore",
+        "name": "Firebase / Firestore",
         "level": "60"
       },
       {
@@ -82,7 +83,7 @@
       },
       {
         "name": "Git/Github",
-        "level": "60"
+        "level": "70"
       },
       {
         "name": "Gimp",
@@ -91,22 +92,28 @@
     ],
     "othertech": [
       {
-        "name": "C#.Net, VB.Net, ASP.Net"
+        "name": "Visual C# 2010, JavaScript, CSS, HTML, PHP, Python, Django, Bootstrap, JQuery, WordPress, NodeJS, MSSQL, MySQL, SQLite, PgAdmin, Visual Studio Code, Git, Github, Firebase, Heroku, Material-UI, Gimp",
+        "year": "2017 - Present"
       },
       {
-        "name": "VB 6.0, ASP Classic"
+        "name": "Visual C# 2010, VB.Net, C#.Net, MSSQL, ORACLE, Sybase, ServiceNow, Remedy, Toad",
+        "year": "2007 - 2016"
       },
       {
-        "name": "MSSQL 6/7, MSSQL 2000, Oracle 8i, Sybase"
+        "name": "VB.Net, C#.Net, Crystal Reports, MSSQL, ORACLE, Toad, Business Objects",
+        "year": "2003 - 2007"
       },
       {
-        "name": "ServiceNow, Remedy"
+        "name": "VB 6.0, ASP Classic, ORACLE, MSSQL, Toad, Crystal Reports",
+        "year": "2001 - 2003"
       },
       {
-        "name": "Crystal Reports, Business Objects, Toad"
+        "name": "VB 3.0, Crystal Reports, VB 6.0, Clipper, Visual Foxpro",
+        "year": "1996 - 2000"
       },
       {
-        "name": "Clipper, Foxpro, Dbase, Foxbase, C, C++"
+        "name": "Clipper, Foxpro, Dbase, Foxbase, C, C++",
+        "year": "1993 - 1995"
       }
     ]
   },
@@ -239,7 +246,7 @@
         "github": ""
       },
       {
-        "title": "Romblon Transport Cooperative (RTC)",
+        "title": "Romblon Transport",
         "category": "Python, PostgreSQL, Heroku",
         "image": "rtc.jpg",
         "url": "https://rtc2018.herokuapp.com",

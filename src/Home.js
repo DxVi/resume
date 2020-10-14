@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Home.css";
-import {Button} from "@material-ui/core";
 import PlayForWorkIcon from '@material-ui/icons/PlayForWork';
 
 function Home({data}) {
@@ -10,21 +9,17 @@ function Home({data}) {
     const state=data?.address.state;
 
     return (
-        <div id="home" className="home">
-            <br/>
-            <h1>I'm {name}.</h1>
-            <br />
-            <h3>I'm currently based in <span>{city}, {state}</span></h3>
-            <h3>I am a {job}</h3>
-            <br />
-            <hr />
-            <p className="home__downIcon">
-                <a href="#about">
-                    <Button>
-                        <PlayForWorkIcon />
-                    </Button>
+        <div id="home" className="home bg-gradient-overlay">
+            <div className="home__top">
+                <h1>I'm {name}.</h1>
+                <h3>I'm currently based in {city}, {state}</h3>
+                <h3>I am a <span>{job}</span></h3>
+                <hr />
+                <a className="home__downIcon" href="#about">
+                    <PlayForWorkIcon />
                 </a>
-            </p>
+            </div>
+            <div className="home__fadeBottom" />
         </div>
     )
 }

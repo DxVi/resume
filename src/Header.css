@@ -2,13 +2,12 @@
   display: flex;
   position: sticky;
   top: 0;
-  background-color: black;
+  background-color: #111;
   z-index: 100;
-  width: 100vw;
 }
 
 .header__left {
-  flex: 0.3;
+  flex: 0.2;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -16,16 +15,16 @@
 
 .header__left > p {
   margin-left: 10px;
-  font-size: small;
+  font-size: large;
   color: antiquewhite;
   opacity: 0.9;
 }
 
 .header__middle {
-  flex: 0.4;
+  flex: 0.8;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header__middle a {
@@ -45,11 +44,23 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  flex: 0.3;
+  flex: 0.2;
 }
 
 .header__right a {
   color: white;
   opacity: 0.8;
   margin-right: 10px;
+  transition: transform 50ms ease-out;
+}
+
+.header__right .MuiSvgIcon-root:hover {
+  color: dodgerblue;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 800px) {
+  .header__middle a {
+    font-size: 16px;
+  }
 }

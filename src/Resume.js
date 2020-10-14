@@ -3,6 +3,7 @@ import "./Resume.css";
 import ResumeEduc from "./ResumeEduc";
 import ResumeWork from "./ResumeWork";
 import ResumeSkills from "./ResumeSkills";
+import ResumeTech from "./ResumeTech";
 
 function Resume({data}) {
     let skillmessage="";
@@ -64,6 +65,7 @@ function Resume({data}) {
                     <p>SKILLS</p>
                 </div>
                 <div className="resume__details">
+                    <p className="resume__message">{skillmessage}</p>
                     {
                     skills ?(
                             skills.map(doc => (
@@ -76,6 +78,24 @@ function Resume({data}) {
                 </div>                
             </div>
             <hr />
+
+            <div className="resume__container">
+                <div className="resume__title">
+                    <p>TECHNOLOGIES</p>
+                </div>
+                <div className="resume__details">
+                <p className="resume__message">{othertechmessage}</p>
+                    {
+                    othertech ?(
+                        othertech.map(doc => (
+                            <ResumeTech key={doc.name} name={doc.name} year={doc.year}/>
+                            ))
+                          )
+                          :
+                          (<> </>)
+                    }
+                </div>                
+            </div>
        </div>
     )
 }

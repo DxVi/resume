@@ -6,6 +6,15 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Header({data}) {
+    let fb = ""
+    let twitter=""
+    let github=""
+
+    if (data){
+        fb = data.facebook;
+        twitter=data.twitter;
+        github=data.github;
+    }
     return (
         <div className="header">
             <div className="header__left">
@@ -20,14 +29,14 @@ function Header({data}) {
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#resume">Resume</a>
-                <a href="#works">Works</a>
+                <a href="#portfolio">Works</a>
                 <a href="#contact">Contact</a>
             </div>
 
             <div className="header__right">
-                <a target="_blank" rel="noopener noreferrer" href={data?.facebook}><FacebookIcon /></a>
-                <a target="_blank" rel="noopener noreferrer" href={data?.twitter}><TwitterIcon /></a>
-                <a target="_blank" rel="noopener noreferrer" href={data?.github}><GitHubIcon /></a>
+                <a target="_blank" rel="noopener noreferrer" href={fb}><FacebookIcon /></a>
+                <a target="_blank" rel="noopener noreferrer" href={twitter}><TwitterIcon /></a>
+                <a target="_blank" rel="noopener noreferrer" href={github}><GitHubIcon /></a>
             </div>
         </div>
     )

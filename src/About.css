@@ -1,33 +1,37 @@
 .about {
-  background-color: red;
+  background-color: #111;
   display: flex;
   justify-content: center;
   color: white;
   opacity: 0.9;
   height: 40vh;
-  width: 100vw;
-  padding-top: 90px;
+  padding-top: 70px;
   text-shadow: 2px 2px 4px black;
 }
 
 .about__pic {
   flex: 0.3;
-  display: grid;
-  justify-content: right;
-  padding-top: 50px;
-  padding-right: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .about__pic > img {
   border-radius: 10px;
   box-shadow: 2px 2px 4px black;
-  position: relative;
-  left: 0;
+  padding-top: 10px;
+  height: 250px;
+  width: 300px;
 }
 
 .about__details {
   flex: 0.7;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.about__details p {
+  opacity: 0.8;
 }
 
 .about__downIcon {
@@ -37,4 +41,15 @@
 
 .about__downIcon .MuiSvgIcon-root {
   color: white !important;
+}
+
+.about__fadeBottom {
+  width: 100%;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    blue /* #111 */
+  );
 }

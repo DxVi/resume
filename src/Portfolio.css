@@ -1,0 +1,21 @@
+.portfolio {
+  /* background-color: rgb(8, 56, 3); */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.portfolio__title {
+  color: darkblue;
+  text-align: center;
+  opacity: 0.8;
+  text-shadow: 1px 1px 2px black;
+}
+
+.portfolio__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+}

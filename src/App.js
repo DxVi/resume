@@ -5,6 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import Resume from "./Resume";
+import Portfolio from "./Portfolio";
 import { useStateValue } from './StateProvider';
 import { actionTypes } from './reducer';
 
@@ -38,6 +39,7 @@ function App() {
       <Home data={resumeData.main}/>
       <About data={resumeData.main}/>
       <Resume data={resumeData.resume} />
+      <Portfolio data={resumeData.portfolio} />
     </div>
   );
 }
