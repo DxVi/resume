@@ -15,8 +15,8 @@ function BuildCard({title, category, image, url, github}) {
                 <div className="title__title">
                     <h2>{title}</h2>  
                 </div>
-                
             </div>
+            <br />
             <div className="buildCard__img" >
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     <img

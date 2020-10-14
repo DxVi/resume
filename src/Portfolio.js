@@ -13,8 +13,8 @@ function Portfolio({data}) {
         <div id="portfolio" className="portfolio">
             <div className="portfolio__title">
                 <br />
-                <h2>These are the works I have completed</h2>   
-                <h4>- Click on the Github icon to check the codes-</h4>
+                <h2>My builds for ReactJS</h2>   
+                <p>- Click on the GitHub icon to see the codes -</p>
             </div>
             <div className="portfolio__cards">
                 {
@@ -34,6 +34,7 @@ function Portfolio({data}) {
                           (<> </>)
                 }
             </div>
+            <hr />
         </div>
     )
 }

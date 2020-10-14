@@ -1,9 +1,7 @@
 import React from 'react';
 
-
-
 function ResumeSkills({name, level}) {
-    const levelValue = level * 3;
+    const levelValue = level * 2.5;
 
     return (
         <div className="resume__skills">

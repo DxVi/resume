@@ -29,7 +29,7 @@
 .home h3 {
   color: antiquewhite;
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -37,13 +37,13 @@
   color: white;
 }
 
-.home hr {
-  width: 300px;
+hr {
+  width: 100%;
   height: 1px;
   border: 0;
-  background-color: antiquewhite;
+  background-color: #666666;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   opacity: 0.5;
 }
 

@@ -96,6 +96,8 @@ function Resume({data}) {
                     }
                 </div>                
             </div>
+
+            <hr />
        </div>
     )
 }

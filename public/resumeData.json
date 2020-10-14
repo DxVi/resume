@@ -4,7 +4,7 @@
     "image": "dixv.jpg",
     "job": "Freelance Full Stack ReactJS Web Application Developer",
     "bio1": "My name is Dixon.",
-    "bio2": "I'm currently looking for a freelance job as a Full Stack ReactJS Web Application Developer",
+    "bio2": "I'm a freelance Full Stack ReactJS Web Application Developer",
     "phone": "+63 949 651 0195",
     "email": "villandixon@yahoo.com",
     "address": {
@@ -18,8 +18,8 @@
     "github": "http://github.com/dxvi"
   },
   "resume": {
-    "skillmessage": "Here are the summary of my current skills;",
-    "othertechmessage": "Here are the summary of my previously used Tools and Technologies;",
+    "skillmessage": "Summary of my current skills;",
+    "othertechmessage": "Summary of Tools and Technologies;",
     "education": [
       {
         "school": "AMA Computer University",

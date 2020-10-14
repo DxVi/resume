@@ -12,9 +12,11 @@ function Home({data}) {
         <div id="home" className="home bg-gradient-overlay">
             <div className="home__top">
                 <h1>I'm {name}.</h1>
-                <h3>I'm currently based in {city}, {state}</h3>
-                <h3>I am a <span>{job}</span></h3>
-                <hr />
+                {/* <h3>I'm currently based in {city}, {state}</h3> */}
+                <h3><span>{job}</span></h3>
+                {/* <hr /> */}
+                <br />
+                <br />
                 <a className="home__downIcon" href="#about">
                     <PlayForWorkIcon />
                 </a>

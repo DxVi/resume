@@ -4,7 +4,7 @@
   justify-content: center;
   color: white;
   opacity: 0.9;
-  height: 40vh;
+  height: 35vh;
   padding-top: 70px;
   text-shadow: 2px 2px 4px black;
 }
@@ -19,18 +19,26 @@
 .about__pic > img {
   border-radius: 10px;
   box-shadow: 2px 2px 4px black;
-  padding-top: 10px;
-  height: 250px;
-  width: 300px;
+  padding-top: 5px;
+  height: 150px;
+  width: 167px;
+  object-fit: contain;
 }
 
 .about__details {
   flex: 0.7;
   padding-left: 10px;
   padding-right: 20px;
+  transition: transform 50ms ease-out;
+}
+
+.about__details h2 {
+  font-size: 15px;
+  opacity: 0.9;
 }
 
 .about__details p {
+  font-size: 13px;
   opacity: 0.8;
 }
 
@@ -52,4 +60,13 @@
     rgba(37, 37, 37, 0.61),
     blue /* #111 */
   );
+}
+
+.about__details .MuiSvgIcon-root {
+  color: dodgerblue;
+}
+
+.about__details .MuiSvgIcon-root:hover {
+  color: lightgreen;
+  transform: scale(1.2);
 }

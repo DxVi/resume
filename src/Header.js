@@ -1,43 +1,63 @@
 import React from 'react';
 import "./Header.css";
 import {Avatar} from "@material-ui/core";
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import GitHubIcon from '@material-ui/icons/GitHub';
+
+import HomeIcon from "@material-ui/icons/Home";
+import PersonIcon from '@material-ui/icons/Person';
+import SchoolIcon from '@material-ui/icons/School';
+import CodeIcon from '@material-ui/icons/Code';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 function Header({data}) {
-    let fb = ""
-    let twitter=""
-    let github=""
+    let name = "";
+    let img = "";
 
     if (data){
-        fb = data.facebook;
-        twitter=data.twitter;
-        github=data.github;
+        name = data.name;
+        img = data.image;
     }
     return (
         <div className="header">
             <div className="header__left">
                 <Avatar 
-                    src={`/images/${data?.image}`}
+                    src={`./images/portfolio/${img}`}
                     alt=""
                 />
-                <p>{data?.name}</p>
+                <p>{name}</p>
             </div>
-
-            <div className="header__middle">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#resume">Resume</a>
-                <a href="#portfolio">Works</a>
-                <a href="#contact">Contact</a>
-            </div>
-
-            <div className="header__right">
-                <a target="_blank" rel="noopener noreferrer" href={fb}><FacebookIcon /></a>
-                <a target="_blank" rel="noopener noreferrer" href={twitter}><TwitterIcon /></a>
-                <a target="_blank" rel="noopener noreferrer" href={github}><GitHubIcon /></a>
-            </div>
+            
+            <div className="header__right">    
+                <div className="menu__home">
+                    <a href="#home">
+                        <HomeIcon />
+                        <p className="desktop" >Home</p>
+                    </a>
+                </div>
+                <div className="menu__about">
+                    <a href="#about">
+                        <PersonIcon />
+                        <p className="desktop">About</p>
+                    </a>
+                </div>
+                <div className="menu__resume">
+                    <a href="#resume"> 
+                        <SchoolIcon />
+                        <p className="desktop">Resume</p>
+                    </a>
+                </div>
+                <div className="menu__works">
+                    <a href="#portfolio">
+                        <CodeIcon />
+                        <p className="desktop">Works</p>
+                    </a> 
+                </div>
+                <div className="menu_contact">
+                    <a href="#contact">
+                        <ContactMailIcon />
+                        <p className="desktop">Contact</p>
+                    </a>
+                </div>
+            </div> 
         </div>
     )
 }

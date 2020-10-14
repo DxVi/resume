@@ -3,8 +3,8 @@ import React from 'react'
 function ResumeTech({name, year}) {
     return (
         <div className="resume__tech">
-            <h4>{name}</h4>
             <p> <i>{year}</i></p>
+            <h4>{name}</h4>
             <br />
         </div>
     )
