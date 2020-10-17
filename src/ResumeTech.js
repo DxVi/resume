@@ -6,7 +6,9 @@ function ResumeTech({name, year}) {
             <p> <i>{year}</i></p>
             <h4>{name}</h4>
             <br />
+            <br />
         </div>
+
     )
 }
 

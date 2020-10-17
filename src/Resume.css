@@ -70,3 +70,8 @@ hr {
   margin-bottom: 5px;
   text-shadow: 1px 1px 2px #666666;
 }
+
+.download_resume {
+  display: flex;
+  justify-content: center;
+}

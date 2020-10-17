@@ -97,6 +97,11 @@ function Resume({data}) {
                 </div>                
             </div>
 
+            {/* <hr /> */}
+            <div className="download_resume">
+                <a href="https://app.box.com/s/ypglo3mnvoghtyg024gj9vgd2qry022b">Download Resume</a>
+            </div>
+            <br />
             <hr />
        </div>
     )
