@@ -135,28 +135,28 @@
       },
       {
         "title": "Hulu Clone",
-        "category": "ReactJS, Firebase, Material-UI, React-Flip-Move, Axios, TMDB",
+        "category": "ReactJS, Firebase, Material-UI, React-Flip-Move, Axios, TMDB API",
         "image": "hulu.jpg",
         "url": "https://hulu-clone-3c589.web.app/",
         "github": "https://github.com/DxVi/hulu-clone.git"
       },
       {
         "title": "Google Clone",
-        "category": "ReactJS, Firebase, React-Context API (Redux), Material-UI, React-Router, Custome React Hook, Google Custom Search API",
+        "category": "ReactJS, Firebase, React-Context API, Material-UI, React-Router, Custome React Hook, Google Custom Search API",
         "image": "google.jpg",
         "url": "https://clone-4f16f.web.app",
         "github": "https://github.com/DxVi/google-clone.git"
       },
       {
         "title": "Whatsapp Clone",
-        "category": "ReactJS, Firebase, React-Context API (Redux), Material-UI, React-Router, Google Authentication",
+        "category": "ReactJS, Firebase, React-Context API, Material-UI, React-Router, Google Authentication",
         "image": "whatsapp.jpg",
         "url": "https://whatsapp-clone-43b56.web.app/",
         "github": "https://github.com/DxVi/whatsapp-clone.git"
       },
       {
         "title": "Slack Clone",
-        "category": "ReactJS, Firebase, Material-UI, CSS Variables, Google Sign-In, React Context API (REDUX)",
+        "category": "ReactJS, Firebase, Material-UI, CSS Variables, Google Sign-In, React Context API",
         "image": "slack.jpg",
         "url": "https://slack-clone-693be.web.app/",
         "github": "https://github.com/DxVi/slack-clone.git"
@@ -184,28 +184,28 @@
       },
       {
         "title": "Covid-19 Tracker",
-        "category": "ReactJS, Firebase, React-Leaflet, Material-UI",
+        "category": "ReactJS, Firebase, React-Leaflet, Material-UI, disease.sh - Open Disease Data",
         "image": "covidtracker.jpg",
         "url": "https://covid-tracker-29b76.web.app/",
         "github": "https://github.com/DxVi/covid-tracker.git"
       },
       {
         "title": "Tinder Clone",
-        "category": "ReactJS, Firebase, TinderCard, Router/Link, Material-UI icons",
+        "category": "ReactJS, Firebase, TinderCard, Router/Link, Material-UI",
         "image": "tinder.jpg",
         "url": "https://tinder-clone-143ca.web.app/",
         "github": "https://github.com/DxVi/tinder-clone.git"
       },
       {
         "title": "YouTube Clone",
-        "category": "ReactJS, Materil-UI Icons, Flexbox, Router/Link",
+        "category": "ReactJS, Materil-UI, Flexbox, Router/Link",
         "image": "youtube.jpg",
         "url": "https://clone-24ce3.web.app/",
         "github": "https://github.com/DxVi/youtube-clone.git"
       },
       {
         "title": "Netflix Clone",
-        "category": "ReactJS, Access to TMDb, Flexbox/Hover/Blend effects",
+        "category": "ReactJS, TMDb API, Flexbox/Hover/Blend effects",
         "image": "netflix.jpg",
         "url": "https://netflix-clone-4262c.web.app/",
         "github": "https://github.com/DxVi/netflix-clone.git"
@@ -233,7 +233,7 @@
       },
       {
         "title": "Amazon Clone",
-        "category": "ReactJS, Shopping Basket, Firebase, Stripe",
+        "category": "ReactJS, Firebase, React Context API, Add to basket functionality, Checkout Page, Payment gateway with Stripe",
         "image": "amazon.jpg",
         "url": "https://challenge-980b3.web.app/",
         "github": ""
