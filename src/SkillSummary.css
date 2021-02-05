@@ -1,0 +1,40 @@
+.skillSummary {
+  display: flex;
+  justify-content: center;
+}
+
+.skillSummary__skill,
+.skillSummary__from,
+.skillSummary__to,
+.skillSummary__desc {
+  border: 1px dotted whitesmoke;
+  padding: 4px;
+}
+
+.skillSummary__skill {
+  flex: 0.17;
+}
+.skillSummary__from {
+  flex: 0.04;
+}
+.skillSummary__to {
+  flex: 0.04;
+}
+.skillSummary__desc {
+  flex: 0.52;
+}
+
+.skillSummary--header > p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2c455d;
+  opacity: 0.8;
+  text-shadow: 1px 1px 2px #666666;
+}
+
+.skillSummary > p {
+  color: #2c455d;
+  opacity: 0.6;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px lightgray;
+}

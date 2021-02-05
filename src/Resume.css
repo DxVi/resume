@@ -9,6 +9,10 @@
   display: flex;
   width: 100%;
 }
+.resume__skills {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
 .resume__title {
   flex: 0.3;
@@ -74,4 +78,15 @@ hr {
 .download_resume {
   display: flex;
   justify-content: center;
+}
+
+.resume > h2 {
+  align-self: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c455d;
+  opacity: 0.8;
+  text-shadow: 1px 1px 2px #666666;
+  padding-bottom: 10px;
 }

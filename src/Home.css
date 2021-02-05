@@ -8,7 +8,7 @@
   opacity: 0.9;
   padding-top: 300px;
   text-shadow: 2px 2px 4px black;
-  background-image: url("/images/home.jpg");
+  background-image: url('/images/home.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   height: 80vh;
+  text-align: center;
 }
 
 .home h1 {
@@ -47,7 +48,7 @@
 }
 .bg-gradient-overlay::after {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   top: 0;

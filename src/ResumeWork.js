@@ -1,15 +1,20 @@
-import React from 'react';
+import React from "react";
 
-function ResumeWork({company, title, years, description}) {
-    return (
-        <div className="resume__Work">
-             <h4>{company}</h4>
-            <p> <i>{title}</i> </p>
-            <p><span>&bull;</span> {years}</p>
-            <p>{description}</p>
-            <br />
-        </div>
-    )
+function ResumeWork({ company, title, years, description }) {
+  return (
+    <div className="resume__Work">
+      <h4>{title}</h4>
+      <p>
+        <span>&bull;</span> {years}
+      </p>
+      <p>
+        {" "}
+        <i>{company}</i>{" "}
+      </p>
+      <p>{description}</p>
+      <br />
+    </div>
+  );
 }
 
-export default ResumeWork
+export default ResumeWork;
